@@ -1,0 +1,22 @@
+{
+  "name": "thezmmm-skills",
+  "description": "Personal Claude Code skills and plugins by thezmmm",
+  "owner": {
+    "name": "thezmmm",
+    "email": "thezmmm8@gmail.com"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "git-commit",
+      "source": "./plugins/git-commit",
+      "description": "Generate professional Git commit messages following Conventional Commits specification",
+      "author": {
+        "name": "thezmmm"
+      },
+      "keywords": ["git", "commit", "conventional-commits"]
+    }
+  ]
+}
