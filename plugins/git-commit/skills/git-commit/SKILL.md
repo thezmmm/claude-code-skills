@@ -1,7 +1,6 @@
 ---
 name: git-commit
 description: Generate professional Git commit messages following Conventional Commits specification. Triggers: user pastes a git diff, asks to "write a commit message", "help me commit this", or describes code changes wanting a commit. Also triggers for casual phrasing like "what should I write for my commit?"
-disable-model-invocation: true
 ---
 
 # Git Commit Message Generator
