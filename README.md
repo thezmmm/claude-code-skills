@@ -20,6 +20,16 @@ Triggers when you paste a `git diff`, ask to write a commit message, or describe
 /plugin install git-commit@thezmmm-skills
 ```
 
+## How Skills Are Invoked
+
+Plugins installed via `/plugin install` must be invoked **manually** with the slash command (e.g. `/git-commit`). They are not injected into Claude's context automatically.
+
+To have a skill **auto-injected** into Claude's context (so Claude can trigger it without you typing a command), copy the `SKILL.md` to:
+
+```
+~/.claude/skills/<skill-name>/SKILL.md
+```
+
 ## Adding a new plugin
 
 1. Create `plugins/<name>/.claude-plugin/plugin.json`
