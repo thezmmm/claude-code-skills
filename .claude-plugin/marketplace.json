@@ -10,13 +10,13 @@
   },
   "plugins": [
     {
-      "name": "git-commit",
-      "source": "./plugins/git-commit",
-      "description": "Generate professional Git commit messages following Conventional Commits specification",
+      "name": "git-tool",
+      "source": "./plugins/git-tool",
+      "description": "Git workflow tools: generate commit messages and execute commits following Conventional Commits specification",
       "author": {
         "name": "thezmmm"
       },
-      "keywords": ["git", "commit", "conventional-commits"]
+      "keywords": ["git", "commit", "conventional-commits", "message"]
     }
   ]
 }

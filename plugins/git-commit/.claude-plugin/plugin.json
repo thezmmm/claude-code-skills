@@ -1,5 +1,0 @@
-{
-  "name": "git-commit",
-  "description": "Generate professional Git commit messages following Conventional Commits specification",
-  "version": "1.0.0"
-}
