@@ -17,6 +17,15 @@
         "name": "thezmmm"
       },
       "keywords": ["git", "commit", "conventional-commits", "message"]
+    },
+    {
+      "name": "dev-tool",
+      "source": "./plugins/dev-tool",
+      "description": "Code review skill: analyze diffs, staged changes, or files for correctness, security, performance, and style",
+      "author": {
+        "name": "thezmmm"
+      },
+      "keywords": ["review", "diff", "security", "quality", "dev"]
     }
   ]
 }

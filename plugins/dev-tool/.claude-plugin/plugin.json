@@ -1,0 +1,5 @@
+{
+  "name": "dev-tool",
+  "description": "Code review skill: analyze diffs, staged changes, or files for correctness, security, performance, and style",
+  "version": "1.0.0"
+}
