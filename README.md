@@ -25,6 +25,20 @@ Git workflow tools with two skills: generate commit messages and execute full gi
 | `message` | `/git-tool:message` | Generate a commit message from a diff or natural language description. Follows [Conventional Commits](https://www.conventionalcommits.org/) spec. Triggers when you paste a `git diff` or describe what you changed. |
 | `commit` | `/git-tool:commit` | Execute a full commit workflow. Always calls the `message` skill to generate the message first. When ≥ 5 files are changed, groups them into logical batches and proposes a multi-commit plan before staging anything. |
 
+### `dev-tool`
+
+Code review skill: analyze diffs, staged changes, or files for correctness, security, performance, and style.
+
+```shell
+/plugin install dev-tool@thezmmm-skills
+```
+
+#### Skills
+
+| Skill | Invoke | Description |
+|-------|--------|-------------|
+| `review` | `/dev-tool:review` | Review code for correctness, security, performance, and maintainability. Auto-detects input: pasted diff, pasted code, file paths, staged changes, or branch diff. Findings are grouped by severity (CRITICAL / MAJOR / MINOR / NIT) with file and line references. Verdict is one of APPROVE / APPROVE WITH COMMENTS / REQUEST CHANGES / ESCALATE. |
+
 ## How Skills Are Invoked
 
 Plugins installed via `/plugin install` must be invoked **manually** with the slash command (e.g. `/git-tool:message`, `/git-tool:commit`). They are not injected into Claude's context automatically.
