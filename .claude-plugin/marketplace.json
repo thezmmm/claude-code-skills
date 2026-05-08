@@ -21,11 +21,11 @@
     {
       "name": "dev-tool",
       "source": "./plugins/dev-tool",
-      "description": "Code review skill: analyze diffs, staged changes, or files for correctness, security, performance, and style",
+      "description": "Developer productivity skills: code review and README writer",
       "author": {
         "name": "thezmmm"
       },
-      "keywords": ["review", "diff", "security", "quality", "dev"]
+      "keywords": ["review", "diff", "security", "quality", "readme", "documentation", "dev"]
     }
   ]
 }

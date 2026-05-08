@@ -27,7 +27,7 @@ Git workflow tools with two skills: generate commit messages and execute full gi
 
 ### `dev-tool`
 
-Code review skill: analyze diffs, staged changes, or files for correctness, security, performance, and style.
+Developer productivity skills: code review and README writer.
 
 ```shell
 /plugin install dev-tool@thezmmm-skills
@@ -38,6 +38,7 @@ Code review skill: analyze diffs, staged changes, or files for correctness, secu
 | Skill | Invoke | Description |
 |-------|--------|-------------|
 | `review` | `/dev-tool:review` | Review code for correctness, security, performance, and maintainability. Auto-detects input: pasted diff, pasted code, file paths, staged changes, or branch diff. Findings are grouped by severity (CRITICAL / MAJOR / MINOR / NIT) with file and line references. Verdict is one of APPROVE / APPROVE WITH COMMENTS / REQUEST CHANGES / ESCALATE. |
+| `readme` | `/dev-tool:readme` | Generate or update a project `README.md` by probing the codebase (package metadata, config files, env vars, scripts). Produces factual, section-calibrated output — only includes sections backed by evidence. Handles new projects, existing READMEs (rewrite or improve), and monorepos. |
 
 ## How Skills Are Invoked
 
